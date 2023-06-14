@@ -1,0 +1,1304 @@
+body::-webkit-scrollbar {
+  display: none;
+  overflow: auto;
+}
+@font-face {
+  font-family: HANDSCHRIFT;
+  src: url(fonts/Caveat/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: black;
+  src: url(fonts/ariblk.ttf);
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border-style: none;
+  cursor: pointer;
+}
+.header {
+  width: auto;
+  height: 10vh;
+  background-color: black;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.header img {
+  width: 14%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  display: flex;
+  margin-left: auto;
+  margin-right: 2%;
+  gap: 20px;
+  align-items: center;
+}
+
+.header button {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  background-color: rgb(155, 22, 22);
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  align-self: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgb(0, 0, 0)),
+    url("f/272841072_3055866171398451_2335089417946575906_n.jpg");
+  background-position: 1px;
+  background-size: 140%;
+  margin-top: auto;
+  height: 1100px;
+  display: grid;
+}
+
+.hero h1 {
+  padding: 0%;
+  font-size: 120px;
+  margin-left: 7%;
+  margin-bottom: 0%;
+  color: white;
+  font-weight: bold;
+  margin-top: 7%;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-left: 7%;
+  font-weight: lighter;
+}
+
+.herobtn {
+  text-align: center;
+  margin-top: 4.5%;
+  margin-bottom: 10%;
+}
+
+.herobtn button {
+  width: 180px;
+  height: 50px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#herobtn1 {
+  color: white;
+  background-color: rgb(180, 20, 20);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#herobtn1:hover{
+  transform: scale(1.1);
+}
+#herobtn2:hover{
+  transform: scale(1.1);
+}
+
+
+#herobtn2 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.section1 {
+  width: 100vw;
+  background-color: white;
+  background-image: url(f/white-concrete-wall_53876-92803.jpg.webp);
+  background-size: contain;
+}
+
+.Scards {
+  color: black;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+  top: -60px;
+  text-align: center;
+}
+
+.scard img {
+  margin-top: 10%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#DB img {
+  transform: rotate(20deg);
+}
+
+.scard {
+  background-color: rgb(4, 0, 39);
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid white;
+  display: grid;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.scard:hover{
+  transform: translateY(-25px);
+
+}
+#arrow1 {
+  width: 2.5%;
+  top: 70%;
+  right: 33%;
+  position: absolute;
+}
+
+#arrow2 {
+  width: 4%;
+  top: 170%;
+  left: 21%;
+  position: absolute;
+}
+#arrow3 {
+  position: absolute;
+  width: 2.5%;
+  right: 28%;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
+.card1{
+  height: 850px;
+  width: 650px;
+  background-color: rgb(4, 0, 39);
+  border-radius: 20px;
+  position: relative;
+  left: -1100px;
+  z-index: 1;
+  top: 50px;
+  border: 1px solid white;
+}
+.card2{
+  height: 850px;
+  width: 650px;
+  background-color: rgb(4, 0, 39);
+  border-radius: 20px;
+  background-image: url(f/bigcard2.jpg);
+  background-position: center;
+  background-size: 130%;
+  position: relative;
+  right: -1100px;
+}
+
+.card1 h2 {
+  font-size: 51.5px;
+  margin: 0;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+.card1 h1 {
+  color: white;
+  font-size: 90px;
+  margin: 0;
+  margin-left: 35px;
+}
+.card1 p {
+  color: white;
+  font-size: 30px;
+  padding-right: 10%;
+  margin: 0;
+  margin-left: 35px;
+  margin-top: 50px;
+}
+
+.card1 button{
+  width: 200px;
+  height: 65px;
+  background-color: rgb(180, 20, 20);
+  color: white;
+  display: grid;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+  font-size: 24px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.card1 button:hover{
+  transform: scale(1.1);
+}
+
+
+.owl-carousel {
+  width: 100%;
+}
+
+.owl-carousel .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+
+.item:hover{
+  transform: scale(1.1);
+
+}
+
+
+.owl-carousel .item {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.item h2 {
+  margin-top: 50%;
+  font-size: 50px;
+}
+
+#lidimage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(f/lm.jpg);
+  background-position: center;
+  background-size: contain;
+}
+#plimage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(f/pl.jpg);
+  background-position: center;
+  background-size: contain;
+}
+#ptimage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(f/pt.jpg.webp);
+  background-position: center;
+  background-size: contain;
+}
+#fysioimage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(f/fysio.jpg.webp);
+  background-position: center;
+  background-size: contain;
+}
+
+.carousel {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+}
+
+#next-btn {
+  margin: 25px;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  background: none;
+}
+
+#prev-btn {
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  font-size: 40px;
+  background: none;
+}
+
+.carousel h1 {
+  margin-top: 15%;
+  margin-bottom: 2%;
+  font-family: black;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section2 {
+  height: 1100px;
+  width: 100vw;
+  background-color: rgb(4, 0, 39);
+}
+.content2 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.cardfoto {
+  height: 550px;
+  background-color: white;
+  width: 450px;
+  margin-top: 125px;
+  background-image: url(f/over\ push.jpg);
+  background-position: center;
+  background-size: 130%;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.content2 h1 {
+  font-size: 90px;
+  color: white;
+  margin: 0;
+}
+
+.content2 h2 {
+  font-size: 35px;
+  color: white;
+  font-weight: normal;
+}
+
+.contenttext {
+  margin-top: 8%;
+}
+
+#video {
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  height: 480px;
+  width: 854px;
+}
+
+.section3 {
+
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  background-image: url(f/white-concrete-wall_53876-92803.jpg.webp);
+  background-size: 100vw, 1250px;
+  background-position: center;
+  overflow: hidden;
+}
+
+.carousel2 {
+  width: 70%;
+  font-family: black;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.carousel2 h1 {
+  margin-top: 12%;
+  font-size: 80px;
+}
+
+#next-btn2 {
+  margin: 25px;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  background: none;
+}
+
+#prev-btn2 {
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  font-size: 40px;
+  background: none;
+}
+
+.owl-carousel .item2 img {
+  height: 300px;
+  width: 400px;
+}
+
+.buttononder {
+  width: 220px;
+  height: 65px;
+  background-color: rgb(202, 29, 29);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.buttononder:hover{
+  transform: scale(1.1);
+}
+.section4 {
+  height: 300px;
+  width: 100vw;
+  background-color: rgb(4, 0, 39);
+  overflow: hidden;
+}
+
+footer {
+  height: 600px;
+  width: 100vw;
+  background-color: black;
+  overflow: hidden;
+}
+
+.reviews {
+  display: flex;
+  height: 175px;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 2.5%;
+}
+
+.sectie1 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.sectie1 a {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+
+.sectie2 p {
+  color: white;
+  font-size: 15px;
+}
+
+.sectie2 h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.sectie2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerinh {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.smlinks img {
+  width: 1.2%;
+}
+
+.smlinks a {
+  margin: 0.3%;
+}
+
+.smlinks {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.sectie3 p {
+  color: white;
+  font-size: px;
+}
+
+.adres img {
+  width: 3.5%;
+  height: 5%;
+}
+.adres {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.adres p {
+  font-size: 15px;
+}
+
+.email img {
+  width: 5%;
+  height: 10%;
+}
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.email p {
+  font-size: 15px;
+}
+
+#close {
+  margin-top: 2%;
+  color: rgb(173, 173, 173);
+  text-align: center;
+  font-size: 15px;
+  z-index: 1;
+  position: relative;
+}
+
+#youtubevid {
+  font-family: handschrift;
+  margin: 0;
+  margin-top: 4%;
+  font-size: 35px;
+  margin-left: 59%;
+}
+
+#carouselvideo {
+  width: 100%;
+  height: 300px;
+}
+
+#popup{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.815);
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  top: 0%;
+  visibility: hidden;
+  
+}
+
+#popup p{
+    color: white;
+   float: right;
+  margin: 2%;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#neira{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  visibility: hidden;
+}
+#joris{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  visibility: hidden;
+}
+#caroline {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+#diar{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  visibility: hidden;
+}
+
+.fotos
+{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  height: 300px;
+  width: auto;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  
+}
+.fotos:hover{
+  transform: scale(1.1);
+}
+
+#neiravid{
+  background-image: url(f/neira2.png);
+  background-size: cover;
+  background-position: center;
+}
+#jorisvid{
+  background-image: url(f/joris.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#carolinevid{
+  background-image: url(f/caroline.png);
+  background-size: cover;
+  background-position: center;
+}
+#diarvid{
+  background-image: url(f/diar.png);
+  background-size: cover;
+  background-position: center;
+
+}
+.hero-section {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 99;
+  top: 0;
+}
+
+.myVideo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 100%;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+   
+  text-align: center;
+  color: white;
+}
+
+#textvideo{
+  justify-content: center;
+  margin-top: 5%;
+  opacity: 100%;
+}
+
+#textvideo h1{
+ font-size: 120px;
+ align-items: center;
+}
+
+.hidden{
+  visibility: hidden;
+}
+#textvideo h2{
+  font-size: 35px;
+}
+
+.hero-content img{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+ 
+}
+
+
+#audio-control {
+  cursor:pointer;
+  padding: 10px 20px;
+  background:rgb(255, 255, 255);
+  color: rgb(49, 49, 49);
+  border-radius: 4px;
+  text-align: center;
+  z-index: 100;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 90%;
+}
+
+@media screen and (max-width: 2600px) {
+  .carousel h1{
+    margin-top: 8%;
+  }
+.buttononder{
+  margin-top: 20%;
+}
+}
+
+@media screen and (max-width: 1700px) {
+  .hero h1 {
+    font-size: 100px;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  .hero {
+    height: 850px;
+  }
+
+
+  .carousel h1 {
+    margin-top: 10%;
+  }
+
+  .buttononder {
+    margin-top: 20%;
+  }
+
+
+  .carousel2 h1 {
+    margin-top: 10%;
+  }
+
+  #youtubevid {
+    margin-left: 65%;
+  }
+
+  .reviews {
+    height: 150px;
+  }
+
+  .section4 {
+    height: 250px;
+  }
+  .item h2 {
+    margin-top: 50%;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .buttononder {
+    margin-top: 35%;
+  }
+
+  .carousel2 h1 {
+    font-size: 50px;
+  }
+  .carousel2 {
+    width: 60%;
+  }
+
+  .carousel h1 {
+    font-size: 50px;
+  }
+
+  .card1 {
+    width: 550px;
+    height: 700px;
+  }
+  .card2 {
+    width: 550px;
+    height: 700px;
+  }
+
+  .card1 h2 {
+    font-size: 35px;
+  }
+
+  .card1 h1 {
+    font-size: 60px;
+  }
+
+  .card1 P {
+    font-size: 23px;
+  }
+  .card1 button {
+    width: 200px;
+    height: 65px;
+  }
+  .item h2 {
+    margin-top: 50%;
+    font-size: 30px;
+  }
+  .content2 {
+    gap: 75px;
+  }
+  .content2 h1 {
+    margin-top: 7%;
+    font-size: 53px;
+  }
+  .content2 h2 {
+    font-size: 33px;
+    margin-top: auto;
+  }
+  .cardfoto {
+    margin-top: 7%;
+    width: 375px;
+    height: 475px;
+  }
+  .section2 {
+    height: 850px;
+  }
+  #video {
+    top: 25%;
+    height: 380px;
+    width: 654px;
+  }
+  #youtubevid {
+    font-size: 35px;
+    margin-left: 55%;
+  }
+  #carouselvideo {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header img {
+    display: flex;
+    position: unset;
+    margin-left: 10%;
+    margin-top: 3.5%;
+  }
+
+  .reviews {
+    height: 100px;
+  }
+  .section4 {
+    height: 170px;
+  }
+  .buttononder {
+    margin-top: 30%;
+    width: 200px;
+    height: 65px;
+    font-size: 17px;
+  }
+  .carousel2 {
+    width: 50%;
+  }
+  .carousel2 h1 {
+    font-size: 30px;
+    margin-top: 15%;
+  }
+  #carouselvideo {
+    height: 150px;
+    width: 100%;
+  }
+
+  .cards {
+    margin-top: 0%;
+  }
+  .card1 {
+    height: 600px;
+    width: 450px;
+  }
+
+  .card2 {
+    height: 600px;
+    width: 450px;
+  }
+  .card1 h2 {
+    font-size: 25px;
+  }
+
+  .card1 h1 {
+    font-size: 45px;
+  }
+
+  .card1 P {
+    font-size: 20px;
+  }
+
+  .content2 {
+    gap: 50px;
+  }
+  .content2 h1 {
+    margin-top: auto;
+    font-size: 45px;
+  }
+  .content2 h2 {
+    font-size: 25px;
+    margin-top: auto;
+  }
+  .cardfoto {
+    margin-top: auto;
+    width: 250px;
+    height: 300px;
+  }
+  .section2 {
+    height: 600px;
+  }
+  #video {
+    top: 25%;
+    height: 280px;
+    width: 454px;
+  }
+  #youtubevid {
+    font-size: 30px;
+    margin-left: 55%;
+  }
+  .item h2 {
+    font-size: 20px;
+  }
+  .carousel h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+ 
+  
+  .header {
+    height: 70px;
+  }
+  .header img {
+    display: flex;
+    position: unset;
+    margin-left: 10%;
+    margin-top: 3.5%;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+  .header button {
+    font-size: 10px;
+    width: 80px;
+    height: 35px;
+  }
+
+  .hero h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 0%;
+    margin-top: 7%;
+  }
+  .hero h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0%;
+  }
+  .hero {
+    height: 650px;
+  }
+
+  .herobtn button {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .scard {
+    width: 120px;
+    height: 120px;
+    font-size: 15px;
+  }
+
+  .card1 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .card2 {
+    width: 300px;
+    height: 400px;
+  }
+  .cards {
+    margin-top: 0%;
+  }
+
+  .card1 h2 {
+    font-size: 20px;
+  }
+
+  .card1 h1 {
+    font-size: 35px;
+  }
+
+  .card1 P {
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  .card button {
+    width: 150px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+
+  .carousel h1 {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+
+  .item h2 {
+    font-size: 15px;
+  }
+  .content2 {
+    gap: 50px;
+  }
+  .content2 h1 {
+    margin-top: auto;
+    font-size: 36px;
+  }
+  .content2 h2 {
+    font-size: 17px;
+    margin-top: auto;
+  }
+  .cardfoto {
+    margin-top: auto;
+    width: 170px;
+    height: 220px;
+  }
+  .section2 {
+    height: 450px;
+  }
+  #video {
+    top: 30%;
+    height: 240px;
+    width: 424px;
+  }
+  #youtubevid {
+    font-size: 20px;
+    margin-left: 55%;
+  }
+  .buttononder {
+    margin-top: 30%;
+    width: 150px;
+    height: 45px;
+    font-size: 17px;
+  }
+  .carousel2 h1 {
+    font-size: 20px;
+    margin-top: 10%;
+  }
+  .carousel2 {
+    width: 60%;
+  }
+ 
+  #carouselvideo {
+    width: 60%;
+    height: 150px;
+  }
+  .reviews {
+    height: 76px;
+  }
+  .section4 {
+    height: 150px;
+  }
+  .footerinh {
+    width: 90%;
+  }
+  .footerinh h2 {
+    font-size: 15px;
+  }
+  footer {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  
+  
+  .header {
+    height: 70px;
+  }
+  .header img {
+    display: flex;
+    position: unset;
+    margin-left: 10%;
+    margin-top: 3.5%;
+  }
+  h2 {
+    font-size: 7px;
+  }
+  .header button {
+    font-size: 7px;
+    width: 60px;
+    height: 25px;
+  }
+  .herobtn {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0%;
+    margin-top: 7%;
+  }
+  .hero h2 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0%;
+  }
+  .hero {
+    height: 500px;
+  }
+
+  .herobtn button {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 15%;
+  }
+
+  .scard {
+    margin-top: 4%;
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+  }
+
+  .card1 {
+    width: 230px;
+    height: 300px;
+  }
+
+  .card2 {
+    width: 230px;
+    height: 300px;
+  }
+  .cards {
+    margin-top: 0%;
+    margin-bottom: 20%;
+  }
+
+  .card1 h2 {
+    font-size: 15px;
+  }
+
+  .card1 h1 {
+    font-size: 25px;
+  }
+
+  .card1 P {
+    font-size: 9px;
+    margin-top: 2%;
+  }
+  .card1 button {
+    width: 110px;
+    height: 35px;
+    font-size: 17px;
+  }
+
+
+  .carousel h1 {
+    font-size: 15px;
+
+  }
+  
+  .item h2 {
+    font-size: 8px;
+  }
+  .content2 {
+    gap: 50px;
+  }
+  .content2 h1 {
+    margin-top: auto;
+    font-size: 30px;
+  }
+  .content2 h2 {
+    font-size: 12px;
+    margin-top: auto;
+  }
+  .cardfoto {
+    margin-top: 7%;
+    width: 150px;
+    height: 180px;
+  }
+  .section2 {
+    height: 450px;
+  }
+  #video {
+    top: 30%;
+    height: 240px;
+    width: 424px;
+  }
+  #youtubevid {
+    font-size: 20px;
+    margin-left: 55%;
+  }
+  .buttononder {
+    margin-top: 30%;
+    width: 150px;
+    height: 45px;
+    font-size: 17px;
+  }
+  .carousel2 h1 {
+    font-size: 20px;
+    margin-top: 17%;
+  }
+  .carousel2 {
+    width: 60%;
+  }
+ 
+  #carouselvideo {
+    width: 100%;
+    height: 100px;
+  }
+  .reviews {
+    height: 40px;
+  }
+  .section4 {
+    height: 0px;
+  }
+  .footerinh {
+    width: 90%;
+    margin-top: 5%;
+  }
+  .footerinh h2 {
+    font-size: 14px;
+  }
+
+  footer {
+    height: 320px;
+  }
+  .footerinh a {
+    font-size: 10px;
+  }
+  .footerinh p {
+    font-size: 10px;
+  }
+}
